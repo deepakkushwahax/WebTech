@@ -1,0 +1,33 @@
+<form action="/submit-appointment" method="post">
+  <div>
+    <label for="patientName">Patient Name:</label>
+    <input type="text" id="patientName" name="patientName" required>
+  </div>
+  <div>
+    <label for="appointmentDate">Appointment Date:</label>
+    <input type="date" id="appointmentDate" name="appointmentDate" required>
+  </div>
+  <div>
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+  </div>
+  <div>
+    <label for="phone">Phone:</label>
+    <input type="text" id="phone" name="phone" required>
+  </div>
+  <div>
+    <label for="doctor">Doctor:</label>
+    <select id="doctor" name="doctor" required>
+      <option value="drSmith">Dr. Smith</option>
+      <option value="drJohnson">Dr. Johnson</option>
+      <option value="drDoe">Dr. Doe</option>
+    </select>
+  </div>
+  <div>
+    <label for="message">Additional Message:</label>
+    <textarea id="message" name="message"></textarea>
+  </div>
+  <div>
+    <button type="submit">Submit</button>
+  </div>
+</form>
