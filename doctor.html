@@ -1,8 +1,18 @@
-<form action="/submit-appointment" method="post">
+<html>
+<head>
+</head>
+<body>
+<fieldset>
+<h3 align="center">KGMU APPOINTMENT</h3>
+<form>
   <div>
     <label for="patientName">Patient Name:</label>
     <input type="text" id="patientName" name="patientName" required>
   </div>
+<tr>
+  <th>Blood Group </th>
+  <td><input type="text" name="Blood" required="true"/></td>
+</tr>
   <div>
     <label for="appointmentDate">Appointment Date:</label>
     <input type="date" id="appointmentDate" name="appointmentDate" required>
@@ -27,7 +37,18 @@
     <label for="message">Additional Message:</label>
     <textarea id="message" name="message"></textarea>
   </div>
+<br>
+<br>
   <div>
     <button type="submit">Submit</button>
+    <input type="reset"></input>
+    <input type="button" value="Print" onclick="window.print();"/>
   </div>
+<tr>
+
+</tr>
+
 </form>
+</fieldset>
+</body>
+</html>
