@@ -1,0 +1,54 @@
+.google-text{
+  font-size: 2rem;
+  font-weight: bold;
+  font-family: Arial, sans-serif;
+  text-align: center;
+
+}
+
+.g {
+  color: #4285F4; /* Blue */
+}
+
+.o {
+  color: #EA4335; /* Red */
+}
+
+.l {
+  color: #34A853; /* Green */
+}
+
+.e {
+  color: #FBBC05; /* Yellow */
+}
+
+.two
+{
+ text-align: center;
+}
+.Form1
+{
+  height: 400px;
+  width: 400px;
+//border: 1px solid black;
+  background-color: #e3e3e2;
+  margin-top: 20px;
+  margin-left: 548px;
+  padding: 10px;
+  box-shadow: 5px 10px 8px 10px #888888;
+  text-align:center;
+}
+.box1
+{
+  height:35px;
+  width: 320px;
+  border: 1px solid black;
+  text-align: center;
+}
+.Form form
+{
+	margin-top: 50px;
+}
+
+
+
